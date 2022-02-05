@@ -7,7 +7,7 @@ gradle build
 ```
 Run the jar and edit config.json accordingly.
 
-##Configuration
+## Configuration
 ```
 {
   "versionName": "ProxyCup",
