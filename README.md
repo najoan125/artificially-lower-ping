@@ -1,10 +1,8 @@
 # Minecraft Redirect Proxy
 This is a project that allows users to setup a proxy where any minecraft client can connect to any remote host. This project would be useful for individuals who want to hide their IP address using a remote server, or possibly allowing an extra layer of filtering for server administrators. 
 ## Usage
-To compile and use, build with dependencies using gradle.
-```
-gradle build
-```
+Download from [releases](https://github.com/sugoidogo/minecraft-redirect-proxy/releases/latest).
+On first run, the default config given below will be written and used.
 Run the jar and edit config.json accordingly.
 
 ## Configuration
