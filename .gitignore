@@ -1,5 +1,6 @@
-*.json
-*/.idea/
-*/target/
-*/*/target/
-*.iml
+gradle
+build
+.gradle
+config.json
+gradlew
+gradlew.bat
