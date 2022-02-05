@@ -30,11 +30,14 @@ Run the jar and edit config.json accordingly.
 }
 ```
 
-| Option        | Info         | Type  |
-| ------------- |:-------------:| -----:|
-| versionName     | The custom version name if connecting to backend server fails | String |
-| maxPlayers     | Max players if connecting to backend server fails.      |  Integer |
-| onlinePlayers | Online players if connecting to backend server fails.          |    Integer |
-| motd | MOTD of server if connecting to backend server fails.          |    String |
-| port | Port that the proxy server should listen on.          |    Integer |
-| Nodes | An array of nodes which specify how to redirect requests based on the hostname of the server the client is trying to connect too.        |     |
+| Option | Info | Type |
+|-|-|-|
+| versionName | The custom version name if connecting to backend server fails | String |
+| maxPlayers | Max players if connecting to backend server fails. | Integer |
+| onlinePlayers | Online players if connecting to backend server fails.| Integer |
+| motd | MOTD of server if connecting to backend server fails. | String |
+| port | Port that the proxy server should listen on. | Integer |
+| nodes | An array of nodes which specify how to redirect requests based on the hostname of the server the client is trying to connect to. | Array |
+| hostname | the hostname or ip requested by the client | String |
+| remoteHostname | the hostname or ip to proxy the connection to | String |
+| remoteHostPort | the port on the remote host to proxy the connection to | Integer |
