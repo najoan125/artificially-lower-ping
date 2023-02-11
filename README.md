@@ -5,6 +5,11 @@ Download from [releases](https://github.com/sugoidogo/minecraft-redirect-proxy/r
 On first run, the default config given below will be written and used.
 Run the jar and edit config.json accordingly.
 
+[releases](https://github.com/sugoidogo/minecraft-redirect-proxy/releases/latest). 에서 받으시면 됩니다.
+처음 실행하면 아래 주어진 기본 구성이 작성되고 사용됩니다.
+jar를 실행하고 그에 따라 config.json을 편집합니다.
+(jar 실행할 때 cmd(명령프롬프트)를 이용해 실행하시면 됩니다)
+
 ## Configuration
 ```
 {
