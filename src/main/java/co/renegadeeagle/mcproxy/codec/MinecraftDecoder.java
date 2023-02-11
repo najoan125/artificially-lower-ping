@@ -79,6 +79,7 @@ public class MinecraftDecoder extends ChannelInboundHandlerAdapter {
                 });
             }
         } else {
+        	Thread.sleep(300);
             Channel proxiedChannel = ctx.channel().attr(PROXY_CHANNEL).get();
             byte[] bytes = new byte[buf.readableBytes()];
             buf.readBytes(bytes);
