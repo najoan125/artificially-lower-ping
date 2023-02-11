@@ -26,8 +26,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'io.netty:netty-all:4.1.0.CR3'
     implementation 'com.google.code.gson:gson:2.8.0'
+    implementation files("libs/netty-all-4.1.0.CR3.jar")
 }
 
 group = 'co.renegadeeagle.mcproxy'
